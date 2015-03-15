@@ -21,7 +21,7 @@ data <- read.csv("activity.csv", sep=",")
 Ignore the missing values in dataset
 ```{r echo=TRUE}
 naremoved <- complete.cases(data)
-dataset <-data[naremoved,]  
+dataset <-data[naremoved,]
 ```
 1. Calculate the total number of steps taken per day
   
